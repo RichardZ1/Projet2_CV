@@ -1,0 +1,293 @@
+@font-face {
+    font-family: 'bonvenocflight';
+    src: url('BonvenoCF-Light-webfont.eot');
+    src: url('BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BonvenoCF-Light-webfont.woff2') format('woff2'),
+         url('BonvenoCF-Light-webfont.woff') format('woff'),
+         url('BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'greyscalebasicbold';
+    src: url('Greyscale_Basic_Bold-webfont.eot');
+    src: url('Greyscale_Basic_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Greyscale_Basic_Bold-webfont.woff2') format('woff2'),
+         url('Greyscale_Basic_Bold-webfont.woff') format('woff'),
+         url('Greyscale_Basic_Bold-webfont.ttf') format('truetype'),
+         url('Greyscale_Basic_Bold-webfont.svg#greyscalebasicbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'greyscalebasicregular';
+    src: url('Greyscale_Basic_Regular-webfont.eot');
+    src: url('Greyscale_Basic_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Greyscale_Basic_Regular-webfont.woff2') format('woff2'),
+         url('Greyscale_Basic_Regular-webfont.woff') format('woff'),
+         url('Greyscale_Basic_Regular-webfont.ttf') format('truetype'),
+         url('Greyscale_Basic_Regular-webfont.svg#greyscalebasicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'new_ciclefina';
+    src: url('New_Cicle_Fina-webfont.eot');
+    src: url('New_Cicle_Fina-webfont.eot?#iefix') format('embedded-opentype'),
+         url('New_Cicle_Fina-webfont.woff2') format('woff2'),
+         url('New_Cicle_Fina-webfont.woff') format('woff'),
+         url('New_Cicle_Fina-webfont.ttf') format('truetype'),
+         url('New_Cicle_Fina-webfont.svg#new_ciclefina') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'perspective_sansregular';
+    src: url('persans-webfont.eot');
+    src: url('persans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('persans-webfont.woff2') format('woff2'),
+         url('persans-webfont.woff') format('woff'),
+         url('persans-webfont.ttf') format('truetype'),
+         url('persans-webfont.svg#perspective_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'new_ciclegordita';
+    src: url('New_Cicle_Gordita-webfont.eot');
+    src: url('New_Cicle_Gordita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('New_Cicle_Gordita-webfont.woff2') format('woff2'),
+         url('New_Cicle_Gordita-webfont.woff') format('woff'),
+         url('New_Cicle_Gordita-webfont.ttf') format('truetype'),
+         url('New_Cicle_Gordita-webfont.svg#new_ciclegordita') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.Conteneur
+{
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
+}
+.BlocGauche
+{
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+	height: 2050px;
+	background-color: #E64A19;
+}
+.BlocGauche h1
+{
+	font-family: 'greyscalebasicregular', serif;
+	font-size: 32px;
+}
+.Photo
+{
+	border-radius: 50%;
+ 	width:170px;
+ 	height:170px;
+ 	border:5px solid #BF360C;
+	background: url('Image1_miniature.png') no-repeat;
+	margin-left: 100px;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.Contact h1, .AProposDeMoi h1, #Loisirs h1
+{
+	background-color: #4E342E;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	color: #D84315;
+}
+.Contact p
+{
+	color: #3E2723;
+	font-family: 'perspective_sansregular';
+	font-size: 17px;
+	padding-left: 30px;
+}
+.Contact a
+{
+	color: #3E2723;
+	text-decoration: none;
+	font-style: italic;
+}
+.Contact a:hover
+{
+	text-decoration: underline;
+	color: #A1887F;
+}
+.AProposDeMoi p
+{
+	color: #3E2723;
+	font-family: 'perspective_sansregular';
+	font-size: 17px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: justify;
+}
+#Loisirs
+{
+	margin-top: 525px;
+}
+#IconsLoisirs
+{
+	display: flex;
+	font-size: 60px;
+	justify-content: space-around;
+}
+#IconsLoisirs i
+{
+	padding-top: 5px;
+	text-align: center;
+	opacity: 0.5;
+	border-radius: 50%;
+	width:73px;
+	height:73px;
+   	border:3px solid;
+}
+.BlocDroit
+{   
+	margin-left: 70px;
+	margin-top: 30px;
+	font-family: 'perspective_sansregular', serif;
+}
+header
+{
+	padding-bottom: 30px;
+}
+h2 span
+{
+	font-family: 'new_ciclegordita', serif;
+	color: #D84315;
+	font-size: 80px;
+	font-weight: bold;
+}
+h2
+{
+	color:#4E342E;
+	font-size: 70px;
+	font-family: 'new_ciclefina', serif;
+}
+h3{
+	font-family: 'bonvenocflight', serif;
+	font-size: 25px;
+}
+h3 span
+{
+	border-bottom: 2px #D84315 solid ;
+}
+.BlocFormations h1, .BlocExperience h1, .BlocRecommandation h1
+{
+	font-family: 'greyscalebasicregular', serif;
+	font-size: 32px;
+	font-weight: bold;
+	border-bottom: 2px #D84315 solid ;
+}
+.BlocFormations h1 i, .BlocExperience h1 i, .BlocRecommandation h1 i
+{
+	color: #D84315;
+}
+.Formations, .Emploi
+{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.DateLieuFirst
+{
+	display: flex;
+	justify-content: space-between;
+	width: 20%;
+	height: 20%;
+	margin-top: 3%;
+}
+.DateLieu
+{
+	display: flex;
+	justify-content: space-between;
+	width: 13%;
+	height: 20%;
+	margin-top: 3%;
+}
+.FormateurFirst
+{
+	margin-left: 90px;
+	width: 60%;
+	height: 40%;
+}
+.Formateur, .Employeur
+{
+	margin-left: 150px;
+	width: 60%;
+	height: 40%;
+}
+.DateLieu span, .DateLieuFirst span
+{
+	font-family: 'perspective_sansregular', serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+h5{
+	font-size: 22px;
+	color: #4E342E;
+}
+h6{
+	font-size: 17px;
+	color: #4E342E;
+}
+.Formateur, .Employeur, .FormateurFirst
+{
+	font-family: 'greyscalebasicbold', serif;
+	color: #4E342E;
+}
+.Formateur h5, .FormateurFirst h5, .Employeur h5
+{
+	font-size: 24px;
+	font-weight: bolder;
+}
+.Formateur h6, .FormateurFirst h6, .Employeur h6
+{
+	font-size: 20px;
+}
+.Formateur p, .FormateurFirst p, .Employeur p
+{
+	font-size: 16px;
+}
+.Icon 
+{
+	color: #D84315;
+}
+.Recommandations
+{
+	display: flex;
+	justify-content: space-around;
+	font-size: 15px;
+	color: #4E342E;
+}
+.Recommandations h4
+{
+	font-size: 21px;
+	color: #4E342E;
+}
+.Recommandations h5
+{
+	font-size: 19px;
+	color: #4E342E;
+}
+@media all and (max-device-width: 480px)
+{
+	.BlocGauche
+	{
+		display: flex;
+		flex-direction: row;
+		width: 55%;
+		height: 2050px;
+		background-color: #E64A19;
+	}  
+}
