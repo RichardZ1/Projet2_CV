@@ -67,37 +67,38 @@
     font-weight: normal;
     font-style: normal;
 }
-.Conteneur
+.conteneur
 {
 	justify-content: space-between;
 	flex-direction: row;
 	display: flex;
 }
-.BlocGauche
+.blocGauche
 {
 	display: flex;
 	flex-direction: column;
 	width: 55%;
-	height: 2050px;
 	background-color: #E64A19;
 }
-.BlocGauche h1
+.blocGauche h2
 {
 	font-family: 'greyscalebasicregular', serif;
 	font-size: 32px;
 }
-.Photo
+.photo
 {
 	border-radius: 50%;
- 	width:170px;
- 	height:170px;
  	border:5px solid #BF360C;
 	background: url('Image1_miniature.png') no-repeat;
-	margin-left: 100px;
-	margin-top: 80px;
-	margin-bottom: 30px;
+	display: block;
+	margin: auto;
+	width:170px;
+	height:170px;
+	border:5px solid #BF360C;
+	margin-bottom: 50px;
+	margin-top: 75px;
 }
-.Contact h1, .AProposDeMoi h1, #Loisirs h1
+.contact h2, .aProposDeMoi h2, #loisirs h2
 {
 	background-color: #4E342E;
 	width: 100%;
@@ -105,25 +106,25 @@
 	text-align: center;
 	color: #D84315;
 }
-.Contact p
+.contact p
 {
 	color: #3E2723;
 	font-family: 'perspective_sansregular';
 	font-size: 17px;
 	padding-left: 30px;
 }
-.Contact a
+.contact a
 {
 	color: #3E2723;
 	text-decoration: none;
 	font-style: italic;
 }
-.Contact a:hover
+.contact a:hover
 {
 	text-decoration: underline;
 	color: #A1887F;
 }
-.AProposDeMoi p
+.aProposDeMoi p
 {
 	color: #3E2723;
 	font-family: 'perspective_sansregular';
@@ -132,17 +133,17 @@
 	padding-right: 40px;
 	text-align: justify;
 }
-#Loisirs
+#loisirs
 {
-	margin-top: 525px;
+	margin-top: 175px;
 }
-#IconsLoisirs
+#iconsLoisirs
 {
 	display: flex;
 	font-size: 60px;
 	justify-content: space-around;
 }
-#IconsLoisirs i
+#iconsLoisirs i
 {
 	padding-top: 5px;
 	text-align: center;
@@ -152,7 +153,7 @@
 	height:73px;
    	border:3px solid;
 }
-.BlocDroit
+.blocDroit
 {   
 	margin-left: 70px;
 	margin-top: 30px;
@@ -162,44 +163,45 @@ header
 {
 	padding-bottom: 30px;
 }
-h2 span
+header h2 span
 {
 	font-family: 'new_ciclegordita', serif;
 	color: #D84315;
 	font-size: 80px;
 	font-weight: bold;
 }
-h2
+header h2
 {
 	color:#4E342E;
 	font-size: 70px;
 	font-family: 'new_ciclefina', serif;
 }
-h3{
+h1
+{
 	font-family: 'bonvenocflight', serif;
 	font-size: 25px;
 }
-h3 span
+h1 span
 {
 	border-bottom: 2px #D84315 solid ;
 }
-.BlocFormations h1, .BlocExperience h1, .BlocRecommandation h1
+.blocFormations h3, .blocExperience h3, .blocRecommandation h3
 {
 	font-family: 'greyscalebasicregular', serif;
 	font-size: 32px;
 	font-weight: bold;
 	border-bottom: 2px #D84315 solid ;
 }
-.BlocFormations h1 i, .BlocExperience h1 i, .BlocRecommandation h1 i
+.blocFormations h3 i, .blocExperience h3 i, .blocRecommandation h3 i
 {
 	color: #D84315;
 }
-.Formations, .Emploi
+.formations, .emploi
 {
 	display: flex;
 	flex-wrap: nowrap;
 }
-.DateLieuFirst
+.dateLieuFirst
 {
 	display: flex;
 	justify-content: space-between;
@@ -207,7 +209,7 @@ h3 span
 	height: 20%;
 	margin-top: 3%;
 }
-.DateLieu
+.dateLieu
 {
 	display: flex;
 	justify-content: space-between;
@@ -215,79 +217,89 @@ h3 span
 	height: 20%;
 	margin-top: 3%;
 }
-.FormateurFirst
+.formateurFirst
 {
 	margin-left: 90px;
 	width: 60%;
 	height: 40%;
 }
-.Formateur, .Employeur
+.formateur, .employeur
 {
 	margin-left: 150px;
 	width: 60%;
 	height: 40%;
 }
-.DateLieu span, .DateLieuFirst span
+.dateLieu span, .dateLieuFirst span
 {
 	font-family: 'perspective_sansregular', serif;
 	font-size: 15px;
 	font-weight: bold;
 }
-h5{
-	font-size: 22px;
-	color: #4E342E;
-}
-h6{
-	font-size: 17px;
-	color: #4E342E;
-}
-.Formateur, .Employeur, .FormateurFirst
+.formateur, .employeur, .formateurFirst
 {
 	font-family: 'greyscalebasicbold', serif;
 	color: #4E342E;
 }
-.Formateur h5, .FormateurFirst h5, .Employeur h5
+.formateur h4, .formateurFirst h4, .employeur h4
 {
 	font-size: 24px;
 	font-weight: bolder;
+	color: #4E342E;
+	margin-bottom: 10px;
 }
-.Formateur h6, .FormateurFirst h6, .Employeur h6
+.formateur h5, .formateurFirst h5, .employeur h5
 {
 	font-size: 20px;
+	color: #4E342E;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-.Formateur p, .FormateurFirst p, .Employeur p
+.formateur p, .formateurFirst p, .employeur p
 {
 	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-.Icon 
+.icon 
 {
 	color: #D84315;
 }
-.Recommandations
+.recommandations
 {
 	display: flex;
 	justify-content: space-around;
 	font-size: 15px;
 	color: #4E342E;
 }
-.Recommandations h4
+.recommandations h4
 {
 	font-size: 21px;
 	color: #4E342E;
+	margin-bottom: 15px;
 }
-.Recommandations h5
+.recommandations h5, .recommandations span
 {
-	font-size: 19px;
+	font-size: 15px;
 	color: #4E342E;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
-@media all and (max-device-width: 480px)
+@media (max-width: 800px)
+
 {
-	.BlocGauche
-	{
-		display: flex;
-		flex-direction: row;
-		width: 55%;
-		height: 2050px;
-		background-color: #E64A19;
-	}  
+	.conteneur
+		{
+			width :100% ;
+			padding :0px ;
+			flex-direction: column;
+		}
+	.blocGauche
+		{
+			width :100% ;           
+		}
+	.blocDroit
+		{
+			width :80% ;
+		}
 }
