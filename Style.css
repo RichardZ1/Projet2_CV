@@ -302,4 +302,20 @@ h1 span
 		{
 			width :80% ;
 		}
+	.formations, .emploi
+		{
+			flex-direction: column;
+		}
+	.formateurFirst
+		{
+			margin-left: 20px;
+		}
+	.formateur, .employeur
+		{
+			margin-left: 20px;
+		}
+	.recommandations
+		{
+			flex-direction: column;
+		}
 }
